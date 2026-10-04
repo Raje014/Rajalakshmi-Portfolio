@@ -5,6 +5,8 @@ import Project4 from '../assets/Project4.png'
 import Project5 from '../assets/Project5.png'
 import Project6 from '../assets/Project6.png'
 import Project7 from '../assets/Project7.png'
+import Project8 from '../assets/Project8.png'
+import Project9 from '../assets/Project9.png'
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
@@ -21,6 +23,24 @@ const Projectsection = ({darkMode}) => {
     },
     {
         id: 2,
+        title: 'Vrta Motors',
+        desc: 'A responsive automotive website developed using React, JavaScript, HTML, CSS and Bootstrap.',
+        image: Project7,
+        tags: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+        github: 'https://github.com/Raje014/Car-Garage-Main',
+        demo: 'https://www.vrtamotors.com/'
+    },
+    {
+        id: 3,
+        title: 'Document Intelligence RAG',
+        desc: 'A document-based AI assistant that uses RAG to retrieve relevant information from PDF, Word and Excel documents using embeddings, Qdrant and Groq.',
+        image: Project8,
+        tags: ['RAG', 'LangChain', 'Qdrant', 'Groq', 'Flask'],
+        github: 'https://github.com/Raje014/RAG',
+        demo: 'https://lnkd.in/p/gbsepp3d'
+    },
+    {
+        id: 4,
         title: 'Hybrid Mobile Application',
         desc: 'A hybrid mobile application for managing and visualizing geotagged temple locations using Ionic Angular and Leaflet.',
         image: Project2,
@@ -29,16 +49,7 @@ const Projectsection = ({darkMode}) => {
         demo: null
     },
     {
-        id: 3,
-        title: 'LinkedIn Automation Agent',
-        desc: 'An automation workflow for generating and publishing LinkedIn content using AI, APIs and Google Sheets.',
-        image: Project3,
-        tags: ['n8n', 'Gemini API', 'LinkedIn API', 'Groq API', 'Google Sheets'],
-        github: 'https://github.com/Raje014/Linkedin-Agent',
-        demo: null
-    },
-    {
-        id: 4,
+        id: 5,
         title: 'eDAR',
         desc: 'A redesigned web interface for the eDAR platform with a modern and responsive user experience.',
         image: Project4,
@@ -47,7 +58,25 @@ const Projectsection = ({darkMode}) => {
         demo: 'https://irad.parivahan.gov.in/'
     },
     {
-        id: 5,
+        id: 6,
+        title: 'LinkedIn Automation Agent',
+        desc: 'An automation workflow for generating and publishing LinkedIn content using AI, APIs and Google Sheets.',
+        image: Project3,
+        tags: ['n8n', 'Gemini API', 'LinkedIn API', 'Groq API', 'Google Sheets'],
+        github: 'https://github.com/Raje014/Linkedin-Agent',
+        demo: 'https://www.linkedin.com/posts/rajalakshmi014_ai-aiagents-n8n-activity-7489568177857654784-WzpG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPNERsB-OGtndZN_9eMkdUDigxSHJjw0cc'
+    },
+    {
+        id: 7,
+        title: 'ML Spam Email Detector',
+        desc: 'A machine learning application that classifies emails as Spam or Not Spam using TF-IDF and Naive Bayes, with a Streamlit interface.',
+        image: Project9,
+        tags: ['Python', 'Pandas', 'Scikit-learn', 'TF-IDF', 'Naive Bayes', 'Streamlit'],
+        github: 'https://github.com/Raje014/ML-Spam-Email-Detector',
+        demo: 'https://lnkd.in/p/gqmTiw-g'
+    },
+    {
+        id: 8,
         title: 'Instagram Clone',
         desc: 'A responsive Instagram-inspired frontend application built with React and CRUD operations.',
         image: Project5,
@@ -56,7 +85,7 @@ const Projectsection = ({darkMode}) => {
         demo: null
     },
     {
-        id: 6,
+        id: 9,
         title: 'Call Center Performance Dashboard',
         desc: 'An interactive Excel dashboard for analyzing call center performance, agent productivity and key metrics.',
         image: Project6,
@@ -64,15 +93,6 @@ const Projectsection = ({darkMode}) => {
         github: 'https://github.com/Raje014/call-center-performance-dashboard',
         demo: null
     },
-    {
-        id: 7,
-        title: 'Vrta Motors',
-        desc: 'A responsive automotive website developed using React, JavaScript, HTML, CSS and Bootstrap.',
-        image: Project7,
-        tags: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
-        github: 'https://github.com/Raje014/Car-Garage-Main',
-        demo: 'https://www.vrtamotors.com/'
-    }
     ];
 
   return (
