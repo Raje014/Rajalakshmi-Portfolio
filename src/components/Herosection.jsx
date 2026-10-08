@@ -1,5 +1,5 @@
-import Resume from "../assets/Resume.pdf";
-import Profile from "../assets/Profile.png";
+import Resume1 from "../assets/Resume1.pdf";
+import photo from "../assets/photo.png";
 import Hi from "../assets/Hi.png";
 
 import { Download, Mail } from "lucide-react";
@@ -151,10 +151,10 @@ const Herosection = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              I’m a Software Developer focused on building responsive web applications 
-              and intelligent solutions using Python, Django, React, SQL, and AI technologies. 
-              I enjoy transforming ideas into practical, user-focused applications and solving 
-              real-world problems through technology.
+              I’m a fresher who loves turning ideas into things that actually work. 
+              Hands-on with Python, Django, React, SQL, and AI, I enjoy building, 
+              solving problems, and learning by doing.
+              Looking to learn, contribute, and grow while creating something meaningful.
             </p>
 
             {/* ================= BUTTONS ================= */}
@@ -172,7 +172,7 @@ const Herosection = ({ darkMode }) => {
 
                 {/* DOWNLOAD CV */}
                 <a
-                  href={Resume}
+                  href={Resume1}
                   download
                   className="w-full sm:w-auto"
                 >
@@ -258,7 +258,7 @@ const Herosection = ({ darkMode }) => {
               <div className="relative">
 
                 <img
-                  src={Profile}
+                  src={photo}
                   alt="Rajalakshmi"
                   className="
                     w-full h-auto
@@ -276,7 +276,7 @@ const Herosection = ({ darkMode }) => {
                   alt="Hi"
                   className="
                     absolute top-2 left-8
-                    sm:top-4 sm:left-12
+                    sm:top-2 sm:left-8
                     w-14 h-14
                     sm:w-20 sm:h-20
                     object-contain

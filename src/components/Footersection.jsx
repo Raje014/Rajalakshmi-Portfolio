@@ -22,14 +22,14 @@ const Footersection = ({darkMode}) => {
                         backgroundClip: 'text',
                         color: 'transparent'
                     }}>
-                        Portfolio
+                        Rajalakshmi's Portfolio
                     </h3>
 
                     <p className="text-sm"
                     style={{
                         color: darkMode ? '#9ca3af' : '#6b7280'
                     }}>
-                        Full Stack Developer & Software Engineer
+                        AI Full Stack Developer & Software Developer
                     </p>
 
                     <div className="flex gap-4">

@@ -46,10 +46,10 @@ const Aboutsection = ({ darkMode }) => {
                 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
                 data-aos='fade-up'
                 data-aos-delay='500'>
-                I’m a Computer Science Engineering graduate and Software Developer with a strong interest in building responsive web applications, 
-                intelligent systems, and practical technology solutions. I enjoy working across the frontend and backend, using technologies such as 
-                Python, Django, React, SQL, and AI. I’m a creative, curious, and continuous learner who enjoys exploring new technologies and improving my 
-                development skills.
+                I’m a Computer Science Engineering graduate and a curious tech enthusiast who enjoys turning ideas into practical, 
+                real-world solutions. I love exploring AI, building responsive web applications, and working across frontend and 
+                backend using Python, Django, React, SQL, and AI. I’m a creative, quick learner who learns by doing, enjoys 
+                solving challenges, and is always excited to explore new technologies and grow.
             </p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
                 <div className="text-center" data-aos='zoom-in' data-aos-delay='600'>
@@ -74,13 +74,13 @@ const Aboutsection = ({ darkMode }) => {
                     </div>
                 </div>
             </div>
-            <button className={`w-full sm:w-auto border-2 border-orange-500 
+            {/* <button className={`w-full sm:w-auto border-2 border-orange-500 
                 ${darkMode ? 'text-white bg-orange-500/10 ' : 'text-gray-800 bg-white/90'} 
                 inline-flex items-center justify-center py-3 px-6 sm:px-8 
                 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] 
                 rounded-full text-base sm:text-lg font-semibold transition-all duration-300`}> 
                 Learn More
-            </button>
+            </button> */}
         </article>
       </div>
     </section>
